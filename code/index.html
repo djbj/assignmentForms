@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms assignment</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+
+    <h1>Learn Web Design, Coding & Much More</h1>
+    <h2>
+      Treehouse offers a 7-day free trial to our course library! Choose from 1,000s of hours of content, from JavaScript to Python to iOS. Learn to code and get the skills you need to launch a new career.
+    </h2>
+
+    <div class="formcard">
+      <p>Try it free for 7 days <span class="regular">then $25/mo. thereafter</span></p>
+
+      <form id="signupForm" class="" action="https://httpbin.org/anything" method="post">
+
+      <fieldset>
+        <div class="col-container">
+          <div class="column">
+            <label class="form-label" for="">First name</label>
+            <input id="fname" type="text" name="firstName"required/>
+          </div>
+          <div class="column">
+            <label for="">Last name</label>
+            <input id="lname" type="text" name="lastName" required/>
+          </div>
+        </div>
+
+        <div class="col-container">
+          <div class="column">
+            <label for="">Email address</label>
+            <input id="email" type="email" name="emailAddress" required />
+          </div>
+          <div class="column">
+            <label for="">Password</label>
+            <input id="pw" type="password" name="password" minlength="6" maxlength="20" required/>
+          </div>
+        </div>
+      </fieldset>
+
+    <div class="col-container-radio">
+      <div class="column">
+        <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" value="male"><br>
+      </div>
+      <div class="column"><label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="female"><br>
+      </div>
+      <div class="column">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br>
+      </div>
+      </div>
+
+      <div class="formFooter">
+        <button name="button" type="submit"> Claim Your Free Trial</button>
+        <div class="note">
+          <input id="idAgree" type="checkbox" name="iAgree" value="agree" checked required>
+          <label>You are agreeing to our <a href="https://www.google.com">Terms and Services</a></label>
+        </div>
+      </div>
+      </form>
+    </div>
+
+  </body>
+</html>

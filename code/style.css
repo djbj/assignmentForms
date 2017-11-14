@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+    font-family: "Montserrat", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #5fcf80;
+  margin: 0;
+  padding: 30px;
+}
+
+  h1, h2 {
+    color: white;
+    text-align: center;
+  }
+
+p {
+  background-color: #637a91;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+#signupForm {
+  width: 100%;
+  background-color: white;
+  display: block;
+  font-weight: 400;
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+fieldset {
+  border: 0;
+  border-bottom: 1px solid #edeff0;
+}
+
+.col-container {
+  font-weight: 400;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.column {
+  float: left;
+  margin: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 50%;
+}
+
+label {
+  color: #40484a;
+  display: block;
+  line-height: 1.3;
+  margin-bottom: .5rem;
+}
+
+input {
+  width: 100%;
+  background-color: #f9fafa;
+  border-color: #d4d9dd;
+  font-size: 1rem;
+  border: 2px solid #d4d9dd;
+  border-radius: 4px;
+  color: #40484a;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+}
+
+button {
+  font-family: "Montserrat", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  font-weight: 500;
+  position: relative;
+  background-color: #5fc580;
+  border: solid 2px #5fc580;
+  border-radius: 4px;
+  padding: 16px;
+  line-height: 20px;
+  margin-top: 1.5rem;
+}
+
+.formFooter p {
+  display: block;
+  font-size: 13px;
+  color: #717f86;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.col-container-radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-container-radio .column {
+  width: 33%;
+  margin-left: 0;
+  text-align: left;
+  
+}
+
+.formFooter {
+  margin: 0;
+}
+
+.note {
+  margin: 0;
+  text-align: center;
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: row;
+}
+
+.note label {
+  width: 50%;
+}
+
+input#idAgree {
+
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .col-container-radio .column {
+    width: 100%;
+  }
+}
